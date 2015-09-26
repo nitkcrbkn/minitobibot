@@ -1,0 +1,12 @@
+phantom.casperPath = '/home/genm/minitobibot/node_modules/casperjs'
+phantom.injectJs(phantom.casperPath + "/bin/bootstrap.js")
+casper = require("casperjs").create()
+
+module.exports = (robot) -> 
+
+    robot.hear /google$/i, (msg) ->
+        msg.send "Google!"
+    casper.start('https://www.google.co.jp', ->
+        res.send "Google!"    
+    )    
+    casper.run()

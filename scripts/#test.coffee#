@@ -1,0 +1,9 @@
+//phantom = require 'phantomjs'
+spooky = require 'spooky'
+
+module.exports = (robot) ->
+    
+    robot.hear /google$/i, (msg) ->
+        msg.send "Google!"    
+ 	spooky.start(http://www.google.com)
+    

@@ -1,0 +1,11 @@
+phantom = require 'phantomjs'
+casper = require('casperjs').create()
+
+module.exports = (robot) -> 
+
+    robot.hear /google$/i, (msg) ->
+        msg.send "Google!"
+    casper.start('https://www.google.co.jp', ->
+        res.send "Google!"    
+    )    
+    casper.run()

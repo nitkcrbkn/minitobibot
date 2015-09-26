@@ -1,0 +1,30 @@
+{
+  "name": "minitobibot",
+  "version": "0.0.1",
+  "private": true,
+  "author": "GENM",
+  "description": "rbknbot-test",
+  "dependencies": {
+    "casperjs": "^1.1.0-beta3",
+    "forever": "^0.15.1",
+    "hubot": "^2.13.2",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-google-images": "^0.1.5",
+    "hubot-google-translate": "^0.2.0",
+    "hubot-help": "^0.1.1",
+    "hubot-maps": "0.0.2",
+    "hubot-pugme": "^0.1.0",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-rules": "^0.1.1",
+    "hubot-scripts": "^2.16.1",
+    "hubot-shipit": "^0.2.0",
+    "hubot-slack": "^3.3.0",
+    "hubot-slack-rainfall-alert": "^1.0.2",
+    "hubot-youtube": "^1.0.1",
+    "phantomjs": "^1.9.17",
+    "spooky": "^0.2.5"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
